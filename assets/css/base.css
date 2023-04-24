@@ -1,0 +1,16 @@
+*{
+    Margin:0;
+    Padding:0;
+    Border:0;
+    }
+
+
+body {
+    font-size: 1.2em;
+    overflow-x: hidden;
+}
+
+
+a {
+    color:var(--2ndclr)
+}

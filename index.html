@@ -8,6 +8,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="siteHeader">
+        <a href="./" class="siteheader__brand">arbejds Opgave</a>
+        <button class="burgerMenuButton">
+            <i data-feather="menu"></i>
+            <span class="sr-only"> menu</span>
+        </button>
+        <nav class="primaryNavigation" aria-hidden="true">
+            <a href="#content" class="sr-only">jump to content</a>
+            <menu class="primaryNavigation__menu">
+                <li class="primaryNavigation__menuItem"><a href="" class="primaryNavigation__link" herf="#">link 1</a></li>
+                <li class="primaryNavigation__menuItem"><a href="" class="primaryNavigation__link" herf="#">link 2</a></li>
+                <li class="primaryNavigation__menuItem"><a href="" class="primaryNavigation__link" herf="#">link 3</a></li>
+            </menu>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section class="highlights">
+            <article class="highlights__article"></article>
+                <img class="highlights__image" src="https://placebear.com/200/300" alt="bear">
+                <h1 class="highlights__heading">overskift</h1>
+                <p class="highlights__text"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, officia illum? Error repellat asperiores necessitatibus dignissimos, recusandae cumque, quasi eum fugiat aliquid autem nesciunt omnis eveniet numquam sapiente provident. Molestias?</p>
+
+                <article class="highlights__article"></article>
+                <img class="highlights__image" src="https://placebear.com/200/300" alt="bear">
+                <h1 class="highlights__heading">overskift</h1>
+                <p class="highlights__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt ipsam neque nam laudantium sint vel saepe numquam expedita. Dolorum at consequuntur libero nihil magni ut unde amet ratione enim?</p>
+
+                <article class="highlights__article"></article>
+                <img class="highlights__image" src="https://placebear.com/200/300" alt="bear">
+                <h1 class="highlights__heading">overskift</h1>
+                <p class="highlights__text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis doloremque, dolores explicabo accusamus sequi et incidunt neque. Mollitia sapiente ratione culpa quasi? Dolore iure in, eum sint ipsam suscipit vitae!</p>
+        </section>
+        
+    </main>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script src="./assets/scripts/burgermenu.js" defer></script>
 </body>
 </html>
